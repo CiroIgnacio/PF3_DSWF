@@ -5,9 +5,12 @@ function calcularAreaRectangulo(longitud, ancho) {
 
 // Ejemplos de área de rectángulo
 console.log("Solución 1: Área de rectángulo");
-console.log(calcularAreaRectangulo(5, 3));  // Resultado: 15
-console.log(calcularAreaRectangulo(10, 4)); // Resultado: 40
-console.log(calcularAreaRectangulo(7, 2));  // Resultado: 14
+console.log("Ejemplo a: Longitud = 5, Ancho = 3"); 
+console.log("//Resultado: ", calcularAreaRectangulo(5, 3));  // Resultado: 15
+console.log("Ejemplo b: Longitud = 10, Ancho = 4"); 
+console.log("//Resultado: ", calcularAreaRectangulo(10, 4)); // Resultado: 40
+console.log("Ejemplo c: Longitud = 7, Ancho = 2"); 
+console.log("//Resultado: ", calcularAreaRectangulo(7, 2));  // Resultado: 14
 console.log("______________");
 
 /* 
@@ -26,9 +29,12 @@ function contarPalabras(texto) {
 
 // Ejemplos de contar palabras
 console.log("Solución 2: Contar palabras");
-console.log(contarPalabras("Humahuaca es un lugar copado")); // Resultado: 5
-console.log(contarPalabras("JavaScript es divertido")); // Resultado: 3
-console.log(contarPalabras("¡Hola     mundo!")); // Resultado: 2
+console.log("Ejemplo a: 'Humahuaca es un lugar copado'");
+console.log("//Resultado: ", contarPalabras("Humahuaca es un lugar copado")); // Resultado: 5
+console.log("Ejemplo b: 'JavaScript es divertido'");
+console.log("//Resultado: ", contarPalabras("JavaScript es divertido")); // Resultado: 3
+console.log("Ejemplo c: '¡Hola     mundo!'");
+console.log("//Resultado: ", contarPalabras("¡Hola     mundo!")); // Resultado: 2
 console.log("______________");
 
 /* 
@@ -46,9 +52,12 @@ function invertirCadena(texto) {
 
 // Ejemplos de invertir cadena
 console.log("Solución 3: Invertir cadena");
-console.log(invertirCadena("hola")); // Resultado: "aloh"
-console.log(invertirCadena("javascript")); // Resultado: "tpircsavaj"
-console.log(invertirCadena("1234")); // Resultado: "4321"
+console.log("Ejemplo a: 'hola'");
+console.log("//Resultado: ", invertirCadena("hola")); // Resultado: "aloh"
+console.log("Ejemplo b: 'javascript'");
+console.log("//Resultado: ", invertirCadena("javascript")); // Resultado: "tpircsavaj"
+console.log("Ejemplo c: '1234'");
+console.log("//Resultado: ", invertirCadena("1234")); // Resultado: "4321"
 console.log("______________");
 
 /* 
@@ -69,9 +78,12 @@ function esPalindromo(texto) {
 
 // Ejemplos de palíndromos
 console.log("Solución 4: Verificar palíndromos");
-console.log(esPalindromo("neuquen")); // Resultado: true
-console.log(esPalindromo("reconocer")); // Resultado: true
-console.log(esPalindromo("javascript")); // Resultado: false
+console.log("Ejemplo a: 'neuquen'");
+console.log("//Resultado: ", esPalindromo("neuquen")); // Resultado: true
+console.log("Ejemplo b: 'reconocer'");
+console.log("//Resultado: ", esPalindromo("reconocer")); // Resultado: true
+console.log("Ejemplo c: 'javascript'");
+console.log("//Resultado: ", esPalindromo("javascript")); // Resultado: false
 console.log("______________");
 
 /* 
@@ -87,7 +99,7 @@ Para verificar palíndromos:
 function edadCanina() {
     const edad = prompt("Ingrese la edad de su perro:");
     const edadHumana = edad * 7;
-    console.log(`Tu perro tiene ${edadHumana} años humanos`);
+    console.log(`//Resultado: Tu perro tiene ${edadHumana} años humanos`);
 }
 
 // Ejemplos de edad canina
